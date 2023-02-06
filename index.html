@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño.css">
+
+    <title>Programa Encriptador</title>
+</head>
+
+
+</head>
+<body>
+    <section id="header">
+        
+        <img id="logo"   src="Logo.svg" alt="">
+    </section>
+    <section id="cuadrogeneral">
+        <form id="derecha">
+            
+            <textarea  id="texto2" rows="10" cols="20"></textarea>
+
+            
+            
+            <img id="imagen"  src="Muñeco.svg" alt="">
+            <h4 id="mensaje">¡Texto descifrado correctamente!</h4>
+            <h5 id="referencia1">Ningún texto fué encontrado</h5>
+            <h6 id="referencia2">Ingrese el texto que quiere encriptar o desencriptar</h6>
+            <button type="button"  id="copia" onclick="myFunction()">Copiar texto</button>
+        </form>
+        <form id="izquierda">
+            
+            <textarea name="" id="texto1" cols="40" rows="20" placeholder="Ingrese un texto aquí"></textarea>
+           
+            
+            
+                 
+           
+            
+        </form>
+        <div class="botonera">
+            <button id="botuno" onclick="Cifrar()">Encriptar</button>
+            <button id="botdos" onclick="Descifrar()">Desencriptar</button>
+        </div>
+
+    </section>
+    <script src="funcion.js"></script>
+</body>
+</html>
